@@ -1,0 +1,1 @@
+var e=new Intl.NumberFormat(`ru-RU`,{style:`currency`,currency:`RUB`,maximumFractionDigits:0});function t(t){return e.format(Math.round(t||0))}function n(e){return`${Math.round((e||0)*100)}%`}function r(e){let[t,n,r]=String(e||``).split(`-`);return t&&n&&r?`${r}.${n}.${t}`:``}export{r as n,n as r,t};
